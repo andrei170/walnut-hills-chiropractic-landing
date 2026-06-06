@@ -322,8 +322,8 @@
       <p class="sb">Or call now: <a href="tel:+15135591200" style="color:var(--navy);font-weight:700">(513) 559-1200</a></p>
       <form id="leadForm" novalidate>
         <div class="frow">
-          <div class="field"><label for="nm">Name</label><input id="nm" type="text" required></div>
-          <div class="field"><label for="ph">Phone</label><input id="ph" type="tel" required></div>
+          <div class="field"><label for="nm">Name</label><input id="nm" type="text" required autocomplete="name" aria-required="true"></div>
+          <div class="field"><label for="ph">Phone</label><input id="ph" type="tel" required autocomplete="tel" aria-required="true"></div>
         </div>
         <div class="field"><label for="need">How can we help?</label>
           <select id="need"><option value="">Select</option><option>Car accident injury</option><option>Neck or back pain</option><option>Whiplash</option><option>Documentation for my case</option><option>Not sure, need an evaluation</option></select>
